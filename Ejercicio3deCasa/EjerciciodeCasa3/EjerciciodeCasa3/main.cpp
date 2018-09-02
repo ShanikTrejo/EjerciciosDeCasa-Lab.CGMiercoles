@@ -110,6 +110,7 @@ void display(void)   // Creamos la funcion donde se dibuja
 	glRotatef(angleY, 0, 1, 0);
 	prisma();
 	glTranslatef(2, 0, 0);
+	//Se genera menu para realizar las traslaciones en los diferentes ejes
 	int opcion;
 float x, y, z;
  do{
